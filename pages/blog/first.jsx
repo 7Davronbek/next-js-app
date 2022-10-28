@@ -1,9 +1,14 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 
-const first = () => {
+const FirstBlog = () => {
+  const router = useRouter()
+  const handleClick = () => {
+    router.replace('/')
+  }
   return (
-    <div>first</div>
+    <div>FirstBlog <button onClick={handleClick}>Go home</button></div>
   )
 }
 
-export default first
+export default FirstBlog
