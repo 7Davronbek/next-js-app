@@ -12,7 +12,7 @@ export const getStaticProps = async () => {
     }
 }
 
-const Burgers = ({burgers}) => {
+const Burgers = ({ burgers }) => {
     console.log(burgers);
     return (
         <div className='Burgers'>
