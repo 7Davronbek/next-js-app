@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "name": "Gamburger",
+      "image": "/images/1.png",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa non dignissimos minus dolor ullam aut fugiat excepturi magnam, eveniet tenetur totam hic. Nemo, nisi aliquid? Inventore unde illo doloremque!",
+      "price": 11000,
+      "id": "001"
+    },
+    {
+      "name": "Damburger",
+      "image": "/images/1.png",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa non dignissimos minus dolor ullam aut fugiat excepturi magnam, eveniet tenetur totam hic. Nemo, nisi aliquid? Inventore unde illo doloremque!",
+      "price": 31000,
+      "id": "002"
+    },
+    {
+      "name": "Bamburger",
+      "image": "/images/1.png",
+      "descr": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa non dignissimos minus dolor ullam aut fugiat excepturi magnam, eveniet tenetur totam hic. Nemo, nisi aliquid? Inventore unde illo doloremque!",
+      "price": 51000,
+      "id": "003"
+    }
+  ]
+}
