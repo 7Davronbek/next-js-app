@@ -34,7 +34,6 @@ export const getStaticProps = async context => {
 }
 
 const BurgerId = ({ burger }) => {
-    console.log(burger);
     return (
         <>
         <Head>
