@@ -1,3 +1,5 @@
+import Head from 'next/head'
+import Image from 'next/image'
 import React from 'react'
 import { API_PATH } from '../../tools/constants'
 
@@ -34,15 +36,27 @@ export const getStaticProps = async context => {
 const BurgerId = ({ burger }) => {
     console.log(burger);
     return (
-        <div className='BurgerId'>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        burger
+        <>
+        <Head>
+            <title>{burger.name}</title>
+            <meta title={burger.name} />
+        </Head>
+            <div className='BurgerId py-5'>
+                <div className="container">
+                    <div className="row align-items-center justify-content-center">
+                        <div className="col-lg-5">
+                            <Image src={burger.image} width={400} height={400} alt={burger.name} />
+                        </div>
+                        <div className="col-lg-5">
+                            <div className="cards">
+                                <h3>{burger.name}</h3>
+                                <p>{burger.descr}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
